@@ -52,6 +52,9 @@ done
 
 echo ">_ Install NPM dependencies ..."
 npm install
+npm i -g hexo-cli
+cd themes/oranges/
+npm ci
 
 echo ">_ Clean cache files ..."
 npx hexo clean
