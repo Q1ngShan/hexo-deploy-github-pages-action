@@ -58,7 +58,7 @@ npx hexo clean
 
 echo ">_ Generate file ..."
 npx hexo generate
-
+cat ./public/index.html
 cd "${TARGET_PUBLISH_DIR}"
 
 CURRENT_DIR=$(pwd)
