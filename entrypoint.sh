@@ -58,8 +58,7 @@ npx hexo clean
 
 echo ">_ Generate file ..."
 npx hexo generate
-cat ./_config.yml
-ls -al ./themes/
+
 cd "${TARGET_PUBLISH_DIR}"
 
 CURRENT_DIR=$(pwd)
