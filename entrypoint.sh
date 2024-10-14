@@ -52,16 +52,13 @@ done
 
 echo ">_ Install NPM dependencies ..."
 npm install
-npm i -g hexo-cli
-cd themes/oranges/
-npm ci
 
 echo ">_ Clean cache files ..."
 npx hexo clean
 
 echo ">_ Generate file ..."
 npx hexo generate
-
+ls -al ./
 cd "${TARGET_PUBLISH_DIR}"
 
 CURRENT_DIR=$(pwd)
