@@ -1,5 +1,5 @@
 # Use Node.js container image
-FROM node:16.17.1
+FROM node:18
 
 # Install Git
 RUN apt-get update && apt-get install -y git
